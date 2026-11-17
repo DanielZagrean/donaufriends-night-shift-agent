@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+runs/
+.cache/
+.env
+.env.*
+!.env.example
+node_modules/
+submission.tar.gz
+.DS_Store
+examples/pi/pi-agent/*
+!examples/pi/pi-agent/models.json
+
+# Team extras
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+outputs/
+data/
+*.log
+.idea/
+.vscode/
+
+# geheime Final-Angriffe (Repo ist öffentlich)
+breaker/*.local.json
